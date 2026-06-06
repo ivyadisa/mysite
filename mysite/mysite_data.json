@@ -1,0 +1,507 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pmWU6I7T3woSs3jSQViGvQ$wXiNQyxErl2f3JdfwFd2LF7APExnZ3xyhPbTZ9X5HJo=",
+    "last_login": "2026-02-02T22:39:21.553Z",
+    "is_superuser": true,
+    "username": "Admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ivyadisa7@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-30T18:58:54.343Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$Yc4hxtfwymqrEPqDDqDPsd$lDuFES4FQA8ryeua2JMBnaKLzXFgjRMSq17rGewTLwU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ivyadisa@7",
+    "first_name": "Ivy",
+    "last_name": "Adisa",
+    "email": "ivyadisa7@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-09-09T14:31:02Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0ir0osj2162knn7anguw790boxiwc9cc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUxwAu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZmEzv9bhHTg9oO8h3brfPU27rMke8KP-jg157peTncv4OKo37rlHyxRkwWDJkiixEWseQopM2QAAnBK3BOe9CgJVFUVkmIJKWOlhx7fwDmize3:1uvzGy:ai82_FOpHbTfjteWsPOe7yRozoSLEUL4H46bRHmbV2Y",
+    "expire_date": "2025-09-23T14:24:40.277Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1waxhfcn9wt3n9b3opmy6s3xqvflwn0b",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUxwAu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZmEzv9bhHTg9oO8h3brfPU27rMke8KP-jg157peTncv4OKo37rlHyxRkwWDJkiixEWseQopM2QAAnBK3BOe9CgJVFUVkmIJKWOlhx7fwDmize3:1uyJqU:TjZOT8SldeUE9dsOPEvOufmr2RlRkKw9bCTU7g9JQMM",
+    "expire_date": "2025-09-30T00:46:58.198Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "biu7084p91nq4alkmvgczatk9f0pm749",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pACUwZcuvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWSpx-t0jpwW0H-U7tNss0t3WZotwVedAur3Pm5-Vw_w4q9fqtHfkhG2QEkzSpyGh1dGWMAOBBM9jiDSefEJMxamBgQuNisYRc_CjeH9xmN-w:1vPHf0:CEnOxUz3kE3kapKkt32wStfh_JlUaDqOIR0dTx8w7bM",
+    "expire_date": "2025-12-13T09:54:34.392Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f0rn366v1t1rkws0n7jz061vskq6rmft",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDpIDAu3XuGZmAGqRpISrsy3l2bdKHb_977LzXSupRx7TKPE6uzMurwu0VKD6kb4DvVW9Op1WWeot4UvdOur43ledndv4NCvXxryh4RQnRwtCcybF30IWQIjgVtZAIGnwYRIucJrRMbOCPGBAg4GPX-AOR5N_k:1vPHf0:XIbTtbfEeVHu-lABNPQNy9JAipraC_zyzxSi_iuJvQc",
+    "expire_date": "2025-12-13T09:54:34.916Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i0ctd76jbk9m0n6j9vgiu5d3ubx991q2",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUxwAu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZmEzv9bhHTg9oO8h3brfPU27rMke8KP-jg157peTncv4OKo37rlHyxRkwWDJkiixEWseQopM2QAAnBK3BOe9CgJVFUVkmIJKWOlhx7fwDmize3:1usQoj:I_sMrgqQXpaFAyaxhyvOi3g5Oc0xg6RPGV6PExhHJII",
+    "expire_date": "2025-09-13T19:00:49.661Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jmv34iugpoeih8pu4h0bgloashhquwq8",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUV16iQKIztniGzHoQXUSk07Ie4OlTrA-t97_2UybeuQt6ZLHos5GzCn341JHjrtoNxpus1W5mldRra7Yg_a7HUu-rwc7t_BQG341pFqqAF6rB0HdKrYCUTnSoXSc19dIEnq0QMrJ5ToC0KiyCAUvCTz_gDpsDgp:1vPHf1:9yvYpWlUeq7kdeouXybL4HRNYilmLZEfsr5V12D1hDw",
+    "expire_date": "2025-12-13T09:54:35.952Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o3s2vjiny9q7bdiut29cc7gofyj5lxsw",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlle_KekzxmsXa-FA8iW4qRC3B0ipYD2zcx7iYTbWtM2ypJmFhcB4vS7EeZHaTvgO7Zbl7m3dZlJ7oo86JBT5_K8Hu7fQcVRv7UmLKCQvc4AJRIiemUsWm0smUAQAzA5GyJmHa1XbOlsXA7eBOUUi_cH5yI3Yg:1vPHex:1FM5EScAPkqb6_O5ugSfmChQZY7esnF-B_5aYrecgyo",
+    "expire_date": "2025-12-13T09:54:31.647Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "olye5e76mrv1qj2snpxul0oh5y12k3xc",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrL4GSnjNE-_HiAEqkOKkQd4dIKaB9M_Nepsd1qf3aytwPYs7GmcPvRsiPMm5A7jjeJsvTuMwD2U2xO232Okl5Xnb376Biq9-aWRDIMWKKDiFoUXA5daQxJPSdArDXDIQ5HH1MGplIVKK6k3gI5v0BBtQ4kw:1vPHey:hmtRnmoPouFPFaCBk1pBt_TiXJPF8VtYp7gX0Lz3N7k",
+    "expire_date": "2025-12-13T09:54:32.640Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q4xe96lxrq3tvuob1jbie3a365uv81bi",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDogFiX7nuGZmYYpGogKe3KeHdD0oVu_3vvv9WM-5bnvck6L1FdlVWn342Qn1I6iA8s96q5lm1dSHdFH7TpqUZ53Q737yBjy72OQAnOHo0FkziAdYBpFE9jIBhciuLZBBp8YIThItFwcCQsKZAhUZ8v9KA44A:1vPHex:JbzkDBg-3oMNbHQVGrjeLTK4jpGyFD2Z96P33Chf1AM",
+    "expire_date": "2025-12-13T09:54:31.942Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tadjca5ebqjk3lhj78q81pmltywju78z",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4qav_bKyM4zRLnchRRQIjXthHh3WtQBJC_2Z_slfFiX7NfGs59InIUSp98MQ3xw2QHdQ7lVGWtZ5gnlXpEHbfJaiZ-Xo_t3kEPL2zpFZwygswyg3Yi9TkqxVipsAmNG0ANbwghsLA0mJeiCJv66Hjvx_gDN5Dej:1vPHf1:u0jy3dJmv4DGdcrHvvXaO8Ek_ZQmJ-3NfRLbxbZbZus",
+    "expire_date": "2025-12-13T09:54:35.502Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u72re8n1refm2sbwt4aw1nidsb7pnizf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDSKQgu3fcMhJkBqRpISrsy3l1JutDte-__l_Bh37LfW1z9wuIilDj9Mgz0iKULvodyq5Jq2dYFZU_kYZucK8fn9Wj_DnJo-bueAOzIwemgrEYclUugJ-iAiWLiARyQBmPAOExsyE1DRKU02DMlFO8P14431g:1vPHez:uS5pvLfLUYbUi3ZrCp04rf4nblNbyw3COgkfPeBy5Uo",
+    "expire_date": "2025-12-13T09:54:33.441Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ufkt9tjuye7rtq24wb9sy5ds0610qzeh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUxwAu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZmEzv9bhHTg9oO8h3brfPU27rMke8KP-jg157peTncv4OKo37rlHyxRkwWDJkiixEWseQopM2QAAnBK3BOe9CgJVFUVkmIJKWOlhx7fwDmize3:1usT89:3vT8V5iZrdzw5RbccOj2xMHvx9b5NjnuFfQnfog1VdM",
+    "expire_date": "2025-09-13T21:29:01.147Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "un8ij7hnpboglp3ad4q30jkkofhctanb",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUV16iQKIztniGzHoQXUSk07Ie4OlTrA-t97_2UybeuQt6ZLHos5GzCn341JHjrtoNxpus1W5mldRra7Yg_a7HUu-rwc7t_BQG341pFqqAF6rB0HdKrYCUTnSoXSc19dIEnq0QMrJ5ToC0KiyCAUvCTz_gDpsDgp:1vn2Zl:9-sEGr_6b4GNs9Bo-wOgG7l_aN5vmh4rqeNI_UNgJZo",
+    "expire_date": "2026-02-16T22:39:21.671Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wwgpnxoo9fczkmi4hdtyvl5ck05xpwd5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUxwAu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZmEzv9bhHTg9oO8h3brfPU27rMke8KP-jg157peTncv4OKo37rlHyxRkwWDJkiixEWseQopM2QAAnBK3BOe9CgJVFUVkmIJKWOlhx7fwDmize3:1v4abq:lnUd7H4gYBg0G59g9Iw__olB5A4zt0EK4AoOmZhy230",
+    "expire_date": "2025-10-17T07:53:46.739Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "127.0.0.1:8000",
+    "name": "My Blog"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "food",
+    "slug": "cook",
+    "author": 1,
+    "body": "Welcome",
+    "publish": "2025-08-30T19:04:20Z",
+    "created": "2025-08-30T19:05:08.055Z",
+    "updated": "2025-09-22T08:15:05.623Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "The Beauty of Learning Django",
+    "slug": "education",
+    "author": 1,
+    "body": "Django is one of the most powerful web frameworks for building modern web applications. \r\nIt allows developers to move quickly from an idea to a working application with minimal hassle. \r\n\r\nOne of its strongest features is the \"batteries-included\" philosophy, which provides tools for \r\nauthentication, ORM, admin interface, and more right out of the box. This makes it a great choice \r\nfor both beginners and experienced developers. \r\n\r\nWith Django, you can create secure, scalable, and maintainable projects while writing clean and \r\nreadable code. If you are starting your web development journey, Django is definitely worth exploring.",
+    "publish": "2025-09-09T14:36:06Z",
+    "created": "2025-09-09T14:40:57.050Z",
+    "updated": "2025-11-29T09:57:17.743Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Water",
+    "slug": "water",
+    "author": 2,
+    "body": "Water for life.",
+    "publish": "2025-09-18T19:40:35Z",
+    "created": "2025-09-18T19:41:31.416Z",
+    "updated": "2025-09-22T08:49:43.460Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Environment",
+    "slug": "environment",
+    "author": 1,
+    "body": "It is our surrounding.",
+    "publish": "2025-09-18T19:41:42Z",
+    "created": "2025-09-18T19:42:19.726Z",
+    "updated": "2025-09-22T08:50:17.078Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown-------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\n Here is a list:\r\n\r\n * One\r\n * Two\r\n * Three\r\n\r\n And a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2025-10-03T07:54:53Z",
+    "created": "2025-10-03T07:56:41.998Z",
+    "updated": "2025-11-29T09:58:15.762Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 2,
+    "name": "Ivy Adisa",
+    "email": "ivymakokha7@gmail.com",
+    "body": "Learning django is the best thing to do as techie.",
+    "created": "2025-09-19T21:52:24.518Z",
+    "updated": "2025-09-19T23:51:27.672Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 3,
+    "name": "Ivy",
+    "email": "ivyadisa7@gmail.com",
+    "body": "nice",
+    "created": "2025-09-19T23:47:10.720Z",
+    "updated": "2025-09-19T23:52:12.345Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 3,
+    "name": "lucy",
+    "email": "lucywangare@gmail.com",
+    "body": "water is important in our bodies",
+    "created": "2025-09-19T23:48:43.554Z",
+    "updated": "2025-09-19T23:48:43.554Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 3,
+    "name": "lucy",
+    "email": "lucywangare@gmail.com",
+    "body": "water is important in our bodies",
+    "created": "2025-09-19T23:48:43.866Z",
+    "updated": "2025-09-19T23:48:43.866Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 4,
+    "name": "Ivy Adisa",
+    "email": "ivyadisa7@gmail.com",
+    "body": "come",
+    "created": "2025-09-25T18:43:38.166Z",
+    "updated": "2025-09-25T18:43:38.166Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 4,
+    "name": "Ivy",
+    "email": "ivymakokha07@gmail.com",
+    "body": "Good",
+    "created": "2025-10-28T11:53:33.665Z",
+    "updated": "2025-10-28T11:53:33.665Z",
+    "active": true
+  }
+}
+]
